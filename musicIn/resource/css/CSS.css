@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white; 
+}
+
+header {
+    background-color: rgb(54, 54, 54);
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0; /* Ensure it stays at the top */
+    left: 0; /* Ensure it starts from the left edge */
+    padding: 15px 0; /* Add padding to header */
+    z-index: 1000; /* Ensure it stays above other elements */
+}
+
+header li {
+    width: auto; /* Allow the width to be determined by the content */
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 15px; /* Adjust margin to center items */
+}
+
+header li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none; /* Ensure links do not have underline */
+}
+
+#logo{
+    float: left;
+}
+
+body {
+    overflow: scroll;
+    background-color: rgb(97, 97, 97);
+    text-align: center;
+    height: 2500px;
+}
+body welcome img{
+    height: 775px;
+    position: absolute;
+    z-index: -1;
+}
+
+body welcome h2 {
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 75px;
+    font-weight: bold;
+    padding: 350px 0;
+}
+
+body musics h2 {
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+body .music {
+    display: inline-block;
+    text-align: center;
+    margin: auto 20px;
+}
+
+body .music img {
+    width: 300px;
+    margin: 5px auto;
+}
+
+body .music h4 {
+    width: 250px;
+    margin: 5px auto;
+    font-size: 20px;
+}
+
+body about {
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+body about h2 {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+body about p {
+    font-size: 30px;
+    font-weight: normal;
+    padding: 20px 0;
+} 
+
+footer {
+    background-color: rgb(54, 54, 54);
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0; /* Ensure it stays at the top */
+    left: 0; /* Ensure it starts from the left edge */
+    padding: 15px 0; /* Add padding to header */
+    z-index: 1000; /* Ensure it stays above other elements */
+}
+
+footer h4 {
+    font-size: 10px;
+    display: inline-block;
+    margin: auto 20px;
+}
